@@ -22,10 +22,10 @@
                 alert('숫자를 입력하세요');
                 return
             }
-            let num_url = "http://numbersapi.com/" + target_num
+            let nume_url = "http://numbersapi.com/" + target_num
             $.ajax({
                 type: "GET",
-                url: num_url,
+                url: nume_url,
                 data: {},
                 success: function (response) {
                     console.log(response);
